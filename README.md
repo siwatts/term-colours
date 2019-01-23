@@ -64,6 +64,21 @@ CursorForeground = #123456
 Selection = #123456
 ```
 
+## Code
+
+- Base (abstract?) class for colour theme
+- Constructor of base class instantiates all fields required, this will ensure
+  all inheriting classes meet the format
+    - How about optional fields / sections?
+- Classes inheriting from this will read their respective terminal colour theme
+  format, mapping into inherited properties
+    - eg. base reader, Xresources reader
+- Where are writers?
+    - Another constructor that takes any class inheriting from base class, so
+      you can instatiate the class for the desired output format using any other
+      class?
+    - Or separate writer classes
+
 ## Requirements
 
 - Miniconda3 environment
