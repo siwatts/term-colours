@@ -8,11 +8,12 @@ Will eventually contain a website for displaying and converting between them.
 
 ## Theme file format
 
-A description for the chosen file format of colourscheme will go here.
+A description for the chosen file format of colourscheme will go here. Use a
+`.term` file type.
 
 Converts to and from this and the format files of other terminal emulators.
 
-Python configparser style file format.
+Python configparser style file format / TOML.
 - Booleans are case insensitive, accepts yes/no, true/false, on/off, 1/0.
 - Section headers and sub section key/value pairs
 - Strings don't need escaping

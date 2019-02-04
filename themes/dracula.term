@@ -1,0 +1,31 @@
+[Meta]
+Name = Dracula
+Source = SW
+Description = Based on dracula.Xresources supplied by the official Dracula project
+Is dark = True
+
+[Colours]
+Background = #282A36
+Foreground = #F8F8F2
+Black = #000000
+BrightBlack = #6272A4
+Red = #FF5555
+BrightRed = #FF6E67
+Green = #50FA7B
+BrightGreen = #5AF78E
+Yellow = #F1FA8C
+BrightYellow = #F4F99D
+Blue = #BD93F9
+BrightBlue = #CAA9FA
+Magenta = #FF79C6
+BrightMagenta = #FF92D0
+Cyan = #8BE9FD
+BrightCyan = #9AEDFE
+White = #F8F8F2
+BrightWhite = #BFBFBF
+
+[Other]
+Cursor = #FF66FF
+CursorForeground = #000000
+Selection = #44475A
+
