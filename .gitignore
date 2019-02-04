@@ -179,3 +179,6 @@ dmypy.json
 .venv/
 
 # End of https://www.gitignore.io/api/python,django
+
+output/
+

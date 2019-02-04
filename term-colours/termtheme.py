@@ -31,10 +31,12 @@ class TermTheme(BaseTheme):
         brightmagenta = theme['Colours']['BrightMagenta']
         brightcyan = theme['Colours']['BrightCyan']
         brightwhite = theme['Colours']['BrightWhite']
+        # Other
+        cursor = theme['Other']['Cursor']
 
         # Call base class constructor
         BaseTheme.__init__(self, name, background, foreground, black, red,
                 green, yellow, blue, magenta, cyan, white, brightblack,
                 brightred, brightgreen, brightyellow, brightblue,
-                brightmagenta, brightcyan, brightwhite)
+                brightmagenta, brightcyan, brightwhite, cursor)
 
