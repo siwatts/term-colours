@@ -7,7 +7,7 @@ Is dark = True
 [Colours]
 Background = #282A36
 Foreground = #F8F8F2
-Black = #000000
+Black = #282A36
 BrightBlack = #6272A4
 Red = #FF5555
 BrightRed = #FF6E67
